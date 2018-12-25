@@ -1,0 +1,76 @@
+.header {
+		font-family: 'klee',sans-serif;
+}
+
+.main {
+    margin-top: 82px; /* Add a top margin to avoid content overlay */
+		font-family: 'klee',sans-serif;
+		padding: 50px;
+}
+
+.main h2 {
+		color: #6AC1B7;
+}
+
+.main p {
+		color: #517D99;
+}
+
+/* The navigation bar */
+.navigationbar {
+    overflow: hidden;
+    background-color: #6AC1B7;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+		left: 0;
+    width: 100%; /* Full width */
+}
+
+.navigationbar p {
+    float: left;
+    color: #DFEFED;
+    text-align: center;
+		padding-left: 50px;
+}
+
+.link {
+		padding-right: 50px;		
+}
+
+/* Links inside the navbar */
+.navigationbar a {
+    float: right;
+    display: block;
+    color: #DFEFED;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navigationbar a:hover {
+    background: #BFE9DB;
+    color: #517D99;
+}
+
+
+.footer {
+    background-color: #6AC1B7;
+    color: #DFEFED;
+		font-size: xx-small;
+		font-family: 'klee',sans-serif;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+		left: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.footer p {
+
+}
+
+/* color palette
+#517D99 #6AC1B7 #BFE9DB #DFEFED
+*/
